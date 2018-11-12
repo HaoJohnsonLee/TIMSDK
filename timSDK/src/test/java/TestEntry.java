@@ -1,10 +1,12 @@
 import com.alibaba.fastjson.JSONObject;
 import com.zs.tim.ConfigStorage;
-import com.zs.tim.entity.TIMAccount;
-import com.zs.tim.entity.TIMResponse;
+import com.zs.tim.entity.request.TIMAccount;
+import com.zs.tim.entity.response.TIMResponse;
 import com.zs.tim.exception.JTIMException;
 import com.zs.tim.exception.RequestException;
+import com.zs.tim.service.TIMAccountService;
 import com.zs.tim.service.TIMService;
+import com.zs.tim.service.impl.TIMDefaultAccountService;
 import com.zs.tim.service.impl.TIMDefaultService;
 import com.zs.tim.utils.RequestUtil;
 import junit.framework.TestCase;
@@ -27,13 +29,17 @@ public class TestEntry extends TestCase {
 
     }
 
-    public void testTimeServices() throws JTIMException {
+    /**
+     * 测试TIMDefaultAccountService
+     * @throws JTIMException
+     */
+    public void testImportAccount() throws JTIMException {
         long appid = 1400160879;
         String priStr = "-----BEGIN PRIVATE KEY-----\n" +
-                "MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgN5HsKDjizYsxxQhX\n" +
-                "h9spfMMFkAhxW8yBvI7xjDPez7OhRANCAAT9m63ZE3t7QBEmzG8OnZBgYRa4xlg0\n" +
-                "1JJa6yw/MrKNSPJJqumU1nmkIBu3iCpph7yzB7LgKBphAnXbMByjkPP7\n" +
-                "-----END PRIVATE KEY-----";
+        "MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgN5HsKDjizYsxxQhX\n" +
+        "h9spfMMFkAhxW8yBvI7xjDPez7OhRANCAAT9m63ZE3t7QBEmzG8OnZBgYRa4xlg0\n" +
+        "1JJa6yw/MrKNSPJJqumU1nmkIBu3iCpph7yzB7LgKBphAnXbMByjkPP7\n" +
+        "-----END PRIVATE KEY-----";
         String identifier = "admin";
         ConfigStorage config = new ConfigStorage();
 
@@ -55,4 +61,23 @@ public class TestEntry extends TestCase {
 
         System.out.println(JSONObject.toJSONString(response));
     }
+
+    public void testTIMAccountService() throws JTIMException{
+        long appid = 1400160879;
+        String priStr = "-----BEGIN PRIVATE KEY-----\n" +
+                "MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgN5HsKDjizYsxxQhX\n" +
+                "h9spfMMFkAhxW8yBvI7xjDPez7OhRANCAAT9m63ZE3t7QBEmzG8OnZBgYRa4xlg0\n" +
+                "1JJa6yw/MrKNSPJJqumU1nmkIBu3iCpph7yzB7LgKBphAnXbMByjkPP7\n" +
+                "-----END PRIVATE KEY-----";
+        String identifier = "admin";
+        ConfigStorage config = new ConfigStorage();
+        config.setIdentifier(identifier);
+        config.setSdkappid(appid);
+        config.setPriStr(priStr);
+        TIMAccountService timAccountService =TIMDefaultAccountService.getTIMAccountService(config);
+        TIMResponse response = timAccountService.kick("uihi");
+        System.out.println(JSONObject.toJSONString(response));
+
+    }
+
 }

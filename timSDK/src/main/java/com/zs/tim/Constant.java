@@ -9,8 +9,9 @@ public interface Constant {
         String ACCOUNT_IMPORT = "https://console.tim.qq.com/v4/im_open_login_svc/account_import";
 
         /** 批量账号导入*/
-        String MULTIACCOUNT_INPORT = "https://console.tim.qq.com/v4/im_open_login_svc/multiaccount_import";
+        String MULTIACCOUNT_IMPORT = "https://console.tim.qq.com/v4/im_open_login_svc/multiaccount_import";
 
+        String KICK="https://console.tim.qq.com/v4/im_open_login_svc/kick";
     }
 
 

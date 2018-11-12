@@ -1,8 +1,9 @@
 package com.zs.tim.service;
 
-import com.zs.tim.entity.TIMAccount;
-import com.zs.tim.entity.TIMMultiImportResponse;
-import com.zs.tim.entity.TIMResponse;
+import com.zs.tim.entity.request.TIMAccount;
+
+import com.zs.tim.entity.response.TIMMultiImportResponse;
+import com.zs.tim.entity.response.TIMResponse;
 import com.zs.tim.exception.JTIMException;
 
 import java.util.List;
@@ -29,5 +30,6 @@ public interface TIMAccountService {
      */
     TIMMultiImportResponse multiImportAccounts(List<String> accountIds) throws JTIMException;
 
+    TIMResponse kick(String accountId) throws JTIMException;
 
 }

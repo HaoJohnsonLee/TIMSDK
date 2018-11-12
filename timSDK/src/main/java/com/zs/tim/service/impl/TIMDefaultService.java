@@ -2,6 +2,7 @@ package com.zs.tim.service.impl;
 
 import com.zs.tim.ConfigStorage;
 import com.zs.tim.service.TIMAccountService;
+import com.zs.tim.service.TIMMessageService;
 import com.zs.tim.service.TIMService;
 
 
@@ -26,4 +27,11 @@ public class TIMDefaultService implements TIMService {
             timAccountService = TIMDefaultAccountService.getTIMAccountService(config);
         return timAccountService;
     }
+
+    @Override
+    public TIMMessageService getTIMMessageService() {
+        return null;
+    }
+
+
 }

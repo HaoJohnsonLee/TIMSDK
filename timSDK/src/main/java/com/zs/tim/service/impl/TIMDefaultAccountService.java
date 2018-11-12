@@ -4,9 +4,9 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.zs.tim.ConfigStorage;
 import com.zs.tim.Constant;
-import com.zs.tim.entity.TIMAccount;
-import com.zs.tim.entity.TIMMultiImportResponse;
-import com.zs.tim.entity.TIMResponse;
+import com.zs.tim.entity.request.TIMAccount;
+import com.zs.tim.entity.response.TIMMultiImportResponse;
+import com.zs.tim.entity.response.TIMResponse;
 import com.zs.tim.exception.JTIMException;
 import com.zs.tim.service.TIMAccountService;
 import com.zs.tim.utils.RequestUtil;
@@ -31,7 +31,7 @@ public class TIMDefaultAccountService implements TIMAccountService {
     }
 
     @Override
-    public TIMResponse importAccount(TIMAccount account) throws JTIMException {
+      public TIMResponse importAccount(TIMAccount account) throws JTIMException {
         return RequestUtil.doPost((JSONObject) JSON.toJSON(account), Constant.URLs.ACCOUNT_IMPORT, config, TIMResponse.class);
     }
 
@@ -39,7 +39,14 @@ public class TIMDefaultAccountService implements TIMAccountService {
     public TIMMultiImportResponse multiImportAccounts(List<String> accountIds) throws JTIMException {
         JSONObject json = new JSONObject();
         json.put("Accounts", accountIds);
-        return RequestUtil.doPost(json, Constant.URLs.MULTIACCOUNT_INPORT, config, TIMMultiImportResponse.class);
+        return RequestUtil.doPost(json, Constant.URLs.MULTIACCOUNT_IMPORT, config, TIMMultiImportResponse.class);
+    }
+
+    @Override
+    public TIMResponse kick(String identifier) throws JTIMException {
+        JSONObject json=new JSONObject();
+        json.put("Identifier",identifier);
+        return RequestUtil.doPost(json,Constant.URLs.KICK,config, TIMResponse.class);
     }
 
 

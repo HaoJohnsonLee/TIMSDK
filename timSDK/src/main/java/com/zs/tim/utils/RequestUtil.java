@@ -25,11 +25,11 @@ import java.util.Map;
 
 @SuppressWarnings("Duplicates")
 public class RequestUtil {
+
     private static CloseableHttpClient client;
     static {
         client = HttpClients.createDefault();
     }
-
 
 
     public static JSONObject doPost(JSONObject body, String uri, Map<String,String> params) throws RequestException {

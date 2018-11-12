@@ -17,6 +17,7 @@ public class TIMDefaultService implements TIMService {
     private ConfigStorage config;
 
     private TIMAccountService timAccountService;
+    private TIMMessageService timMessageService;
 
     public TIMDefaultService(ConfigStorage config){
         this.config = config;
@@ -30,7 +31,9 @@ public class TIMDefaultService implements TIMService {
 
     @Override
     public TIMMessageService getTIMMessageService() {
-        return null;
+        if(timMessageService == null)
+            timMessageService = TIMDefaultMessageService.getTIMMessageService(config);
+        return timMessageService;
     }
 
 

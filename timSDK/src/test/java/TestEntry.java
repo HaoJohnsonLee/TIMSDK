@@ -47,17 +47,13 @@ public class TestEntry extends TestCase {
         config.setSdkappid(appid);
         config.setPriStr(priStr);
 
-
-
-        TIMService timService = new TIMDefaultService(config);
         TIMAccount account = new TIMAccount();
-
         account.setFaceUrl("url");
         account.setIdentifier("asdfrewgterwga");
         account.setNick("test_first");
 
+        TIMService timService = new TIMDefaultService(config);
         TIMResponse response = timService.getTIMAccountService().importAccount(account);
-
 
         System.out.println(JSONObject.toJSONString(response));
     }
@@ -74,10 +70,13 @@ public class TestEntry extends TestCase {
         config.setIdentifier(identifier);
         config.setSdkappid(appid);
         config.setPriStr(priStr);
-        TIMAccountService timAccountService =TIMDefaultAccountService.getTIMAccountService(config);
-        TIMResponse response = timAccountService.kick("uihi");
-        System.out.println(JSONObject.toJSONString(response));
+
+        //TIMAccountService timAccountService =TIMDefaultAccountService.getTIMAccountService(config);
+        //TIMResponse timResponse = timAccountService.kick("uihi");
+        TIMService timService=new TIMDefaultService(config);
+        TIMResponse timResponse=timService.getTIMAccountService().kick("abcd");
+
+        System.out.println(JSONObject.toJSONString(timResponse));
 
     }
-
 }

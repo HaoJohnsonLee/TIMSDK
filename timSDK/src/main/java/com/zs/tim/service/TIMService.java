@@ -4,6 +4,4 @@ public interface TIMService {
      TIMAccountService getTIMAccountService();
 
      TIMMessageService getTIMMessageService();
-
-
 }

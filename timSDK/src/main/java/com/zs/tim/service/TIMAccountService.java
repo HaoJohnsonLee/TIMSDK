@@ -30,6 +30,12 @@ public interface TIMAccountService {
      */
     TIMMultiImportResponse multiImportAccounts(List<String> accountIds) throws JTIMException;
 
-    TIMResponse kick(String accountId) throws JTIMException;
+    /**
+     *将应用帐号的登录态（比如UserSig）失效，支持一次失效一个帐号
+     * @param identifier 用户名
+     * @return TIMResponse
+     * @throws JTIMException
+     */
+    TIMResponse kick(String identifier) throws JTIMException;
 
 }

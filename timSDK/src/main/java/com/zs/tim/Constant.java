@@ -10,8 +10,11 @@ public interface Constant {
 
         /** 批量账号导入*/
         String MULTIACCOUNT_IMPORT = "https://console.tim.qq.com/v4/im_open_login_svc/multiaccount_import";
-
+        /**账户登录失效*/
         String KICK="https://console.tim.qq.com/v4/im_open_login_svc/kick";
+        /**单发单聊消息*/
+        String SENDMSG="https://console.tim.qq.com/v4/openim/sendmsg";
+        String BATCHSENDMSG="https://console.tim.qq.com/v4/openim/batchsendmsg";
     }
 
 
@@ -44,4 +47,5 @@ public interface Constant {
         /** 角色*/
         String IM_Role = "Tag_Profile_IM_Role";
     }
+
 }

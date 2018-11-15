@@ -2,11 +2,16 @@ package com.zs.tim.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.annotation.JSONField;
 import com.zs.tim.ConfigStorage;
 import com.zs.tim.Constant;
-import com.zs.tim.entity.request.BatchSendMsg;
-import com.zs.tim.entity.request.SendMsg;
+import com.zs.tim.entity.request.TIMBatchSendMsg;
+import com.zs.tim.entity.request.TIMGetHistory;
+import com.zs.tim.entity.request.TIMImportMsg;
+import com.zs.tim.entity.request.TIMSendMsg;
 import com.zs.tim.entity.response.TIMBatchSendMsgResponse;
+import com.zs.tim.entity.response.TIMGetHistoryResponse;
+import com.zs.tim.entity.response.TIMResponse;
 import com.zs.tim.entity.response.TIMSendMsgResponse;
 import com.zs.tim.exception.JTIMException;
 import com.zs.tim.service.TIMMessageService;
@@ -30,12 +35,22 @@ public class TIMDefaultMessageService implements TIMMessageService{
 
 
     @Override
-    public TIMSendMsgResponse sendMsg(SendMsg sendMsg) throws JTIMException {
-        return RequestUtil.doPost((JSONObject) JSON.toJSON(sendMsg), Constant.URLs.SENDMSG,config,TIMSendMsgResponse.class);
+    public TIMSendMsgResponse sendMsg(TIMSendMsg timSendMsg) throws JTIMException {
+        return RequestUtil.doPost((JSONObject) JSON.toJSON(timSendMsg), Constant.URLs.SENDMSG,config,TIMSendMsgResponse.class);
     }
 
     @Override
-    public TIMBatchSendMsgResponse batchSendMsg(BatchSendMsg batchSendMsg) throws JTIMException {
-        return RequestUtil.doPost((JSONObject)JSON.toJSON(batchSendMsg),Constant.URLs.BATCHSENDMSG,config,TIMBatchSendMsgResponse.class);
+    public TIMBatchSendMsgResponse batchSendMsg(TIMBatchSendMsg timBatchSendMsg) throws JTIMException {
+        return RequestUtil.doPost((JSONObject)JSON.toJSON(timBatchSendMsg),Constant.URLs.BATCHSENDMSG,config,TIMBatchSendMsgResponse.class);
+    }
+
+    @Override
+    public TIMResponse importMsg(TIMImportMsg timImportMsg) throws JTIMException {
+        return RequestUtil.doPost((JSONObject)JSON.toJSON(timImportMsg),Constant.URLs.IMPORTMSG,config,TIMResponse.class);
+    }
+
+    @Override
+    public TIMGetHistoryResponse getHistory(TIMGetHistory timGetHistory) throws JTIMException {
+        return RequestUtil.doPost((JSONObject)JSON.toJSON(timGetHistory),Constant.URLs.GET_HISTORY,config,TIMGetHistoryResponse.class);
     }
 }

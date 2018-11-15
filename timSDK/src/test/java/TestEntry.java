@@ -1,11 +1,11 @@
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.zs.tim.ConfigStorage;
 import com.zs.tim.entity.pojo.Msg.MsgBody;
 import com.zs.tim.entity.pojo.Msg.MsgText;
-import com.zs.tim.entity.request.BatchSendMsg;
-import com.zs.tim.entity.request.SendMsg;
-import com.zs.tim.entity.request.TIMAccount;
+import com.zs.tim.entity.request.*;
 import com.zs.tim.entity.response.TIMBatchSendMsgResponse;
+import com.zs.tim.entity.response.TIMGetHistoryResponse;
 import com.zs.tim.entity.response.TIMResponse;
 import com.zs.tim.exception.JTIMException;
 import com.zs.tim.exception.RequestException;
@@ -20,11 +20,11 @@ import java.util.List;
 import java.util.Map;
 
 public class TestEntry extends TestCase {
-    /**
-     * 生成配置信息config
-     */
-    ConfigStorage config;
 
+    ConfigStorage config;
+    /**
+     * 配置config信息
+     */
     {
         long appid = 1400160879;
         String priStr = "-----BEGIN PRIVATE KEY-----\n" +
@@ -83,14 +83,12 @@ public class TestEntry extends TestCase {
         System.out.println(JSONObject.toJSONString(timResponse));
 
     }
-
-
     /**
      * 测试TIMDefaultMessageService.sendMsg()方法
      */
     public void testSendMsg(){
         TIMService timService=new TIMDefaultService(config);
-        SendMsg sendMsg=new SendMsg();
+        TIMSendMsg TIMSendMsg =new TIMSendMsg();
         List<MsgBody> msgBodies=new ArrayList<>();
         MsgBody msgBody=new MsgText();
         MsgText.MsgContentBean msgContentBean=new MsgText.MsgContentBean();
@@ -98,29 +96,29 @@ public class TestEntry extends TestCase {
         ((MsgText) msgBody).setMsgContent(msgContentBean);
         msgBodies.add(msgBody);
 
-        sendMsg.setSyncOtherMachine(1);
-        sendMsg.setTo_Account("lumotuwe2");
-        sendMsg.setMsgLifeTime(60);
-        sendMsg.setMsgRandom(1287657);
-        sendMsg.setMsgTimeStamp(5454457);
-        sendMsg.setMsgBodies(msgBodies);
+        TIMSendMsg.setSyncOtherMachine(1);
+        TIMSendMsg.setTo_Account("lumotuwe2");
+        TIMSendMsg.setMsgLifeTime(60);
+        TIMSendMsg.setMsgRandom(1287657);
+        TIMSendMsg.setMsgTimeStamp(5454457);
+        TIMSendMsg.setMsgBodies(msgBodies);
+
         TIMResponse timResponse=null;
         try {
-            timResponse=timService.getTIMMessageService().sendMsg(sendMsg);
+            timResponse=timService.getTIMMessageService().sendMsg(TIMSendMsg);
         } catch (JTIMException e) {
             e.printStackTrace();
         }
         System.out.println(JSONObject.toJSONString(timResponse));
     }
-
     /**
-     * 测试测试TIMDefaultMessageService.BatchSendMsg
+     * 测试测试TIMDefaultMessageService.TIMBatchSendMsg
      * @throws JTIMException
      */
     public void testBatchSendMsg() throws JTIMException{
         TIMService timService=new TIMDefaultService(config);
-        BatchSendMsg batchSendMsg=new BatchSendMsg();
-        batchSendMsg.setFrom_Account("admin");
+        TIMBatchSendMsg TIMBatchSendMsg =new TIMBatchSendMsg();
+        TIMBatchSendMsg.setFrom_Account("admin");
         List<String> list=new ArrayList<>();
         list.add("lilei");
         list.add("haaha");
@@ -132,12 +130,57 @@ public class TestEntry extends TestCase {
         ((MsgText) msgBody).setMsgContent(msgContentBean);
 
         msgBodies.add(msgBody);
-        batchSendMsg.setTo_Account(list);
-        batchSendMsg.setMsgBody(msgBodies);
+        TIMBatchSendMsg.setTo_Account(list);
+        TIMBatchSendMsg.setMsgBody(msgBodies);
 
-        TIMBatchSendMsgResponse timBatchSendMsgResponse=timService.getTIMMessageService().batchSendMsg(batchSendMsg);
+        TIMBatchSendMsgResponse timBatchSendMsgResponse=timService.getTIMMessageService().batchSendMsg(TIMBatchSendMsg);
 
         System.out.println(JSONObject.toJSONString(timBatchSendMsgResponse));
 
     }
+
+    /**
+     * 测试TIMDefaultMessageService.importMsg()方法
+     */
+    public void testImportMsg() throws JTIMException{
+        TIMImportMsg timImportMsg=new TIMImportMsg();
+        List<MsgBody>msgBodies= new ArrayList<>();
+        MsgText.MsgContentBean msgContent=new MsgText.MsgContentBean();
+        msgContent.setText("this is a context");
+        MsgBody msgBody1=new MsgText(msgContent);
+        MsgBody msgBody2=new MsgText(msgContent);
+        msgBodies.add(msgBody1);
+        msgBodies.add(msgBody2);
+        timImportMsg.setFrom_Account("admin");
+        timImportMsg.setTo_Account("lumotuwe2");
+        timImportMsg.setMsgRandom(213445);
+        timImportMsg.setMsgTimeStamp(123426578);
+        timImportMsg.setSyncFromOldSystem(1);
+        timImportMsg.setMsgBodies(msgBodies);
+
+        TIMService timService=new TIMDefaultService(config);
+        TIMResponse timResponse=null;
+        timResponse = timService.getTIMMessageService().importMsg(timImportMsg);
+
+        System.out.println(JSONObject.toJSONString(timResponse));
+
+    }
+
+    /**
+     * 测试TIMDefalutMessageService.getHistory()方法
+     */
+    public void testGetHistory() throws JTIMException{
+        TIMService timService=new TIMDefaultService(config);
+        TIMGetHistory timGetHistory=new TIMGetHistory();
+        timGetHistory.setChatType("C2C");
+        timGetHistory.setMsgTime("2018111121");
+
+        TIMGetHistoryResponse timGetHistoryResponse=null;
+
+        timGetHistoryResponse=timService.getTIMMessageService().getHistory(timGetHistory);
+        System.out.println(JSONObject.toJSONString(timGetHistoryResponse));
+
+    }
+
+
 }

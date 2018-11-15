@@ -13,6 +13,13 @@ public class MsgFace implements MsgBody {
     @JSONField(name = "MsgContent")
     private MsgContentBean msgContent;
 
+    public MsgFace(MsgContentBean msgContent) {
+        this.msgContent = msgContent;
+    }
+
+    public MsgFace() {
+    }
+
     public String getMsgType() {
         return msgType;
     }

@@ -14,7 +14,12 @@ public interface Constant {
         String KICK="https://console.tim.qq.com/v4/im_open_login_svc/kick";
         /**单发单聊消息*/
         String SENDMSG="https://console.tim.qq.com/v4/openim/sendmsg";
+        /*批量发单聊消息*/
         String BATCHSENDMSG="https://console.tim.qq.com/v4/openim/batchsendmsg";
+        /*导入单聊消息*/
+        String IMPORTMSG ="https://console.tim.qq.com/v4/openim/importmsg";
+        /**消息记录下载*/
+        String GET_HISTORY="https://console.tim.qq.com/v4/open_msg_svc/get_history";
     }
 
 

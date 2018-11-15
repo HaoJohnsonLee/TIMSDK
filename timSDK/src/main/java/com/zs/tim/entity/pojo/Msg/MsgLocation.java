@@ -13,6 +13,13 @@ public class MsgLocation implements MsgBody{
     @JSONField(name = "MsgContent")
     private MsgContentBean msgContent;
 
+    public MsgLocation(MsgContentBean msgContent) {
+        this.msgContent = msgContent;
+    }
+
+    public MsgLocation() {
+    }
+
     public String getMsgType() {
         return msgType;
     }

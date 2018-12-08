@@ -45,9 +45,6 @@ public class ConfigStorage {
         return ver;
     }
 
-    public void setVer(String ver) {
-        this.ver = ver;
-    }
 
     public long getSdkappid() {
         return sdkappid;
@@ -61,9 +58,6 @@ public class ConfigStorage {
         return contenttype;
     }
 
-    public void setContenttype(String contenttype) {
-        this.contenttype = contenttype;
-    }
 
     public String getIdentifier() {
         return identifier;
@@ -91,7 +85,7 @@ public class ConfigStorage {
      * 全局在此检查设置情况
      *
      * @return this -> map
-     * @throws JTIMException if some key params is null
+     * @throws JTIMException if some key params is null``
      */
     public Map<String, String> getParams() throws JTIMException {
         if (!isChecked) {
@@ -113,6 +107,10 @@ public class ConfigStorage {
 
     public void setPriStr(String priStr) {
         this.priStr = priStr;
+    }
+
+    public String getPriStr(){
+        return this.priStr;
     }
 }
 

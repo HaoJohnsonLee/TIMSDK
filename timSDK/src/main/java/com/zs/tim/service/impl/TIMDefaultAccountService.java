@@ -2,6 +2,7 @@ package com.zs.tim.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.tls.tls_sigature.tls_sigature;
 import com.zs.tim.ConfigStorage;
 import com.zs.tim.Constant;
 import com.zs.tim.entity.request.TIMAccount;
@@ -28,6 +29,14 @@ public class TIMDefaultAccountService implements TIMAccountService {
             }
         }
         return instance;
+    }
+
+    @Override
+    public String getUserSig(String identifier) {
+        tls_sigature.GenTLSSignatureResult genTLSSignatureResult = tls_sigature.GenTLSSignatureEx(config.getSdkappid(), identifier, config.getPriStr());
+        if(genTLSSignatureResult != null)
+            return genTLSSignatureResult.urlSig;
+        return "";
     }
 
     @Override

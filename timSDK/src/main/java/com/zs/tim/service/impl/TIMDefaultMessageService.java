@@ -2,7 +2,6 @@ package com.zs.tim.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.alibaba.fastjson.annotation.JSONField;
 import com.zs.tim.ConfigStorage;
 import com.zs.tim.Constant;
 import com.zs.tim.entity.request.TIMBatchSendMsg;

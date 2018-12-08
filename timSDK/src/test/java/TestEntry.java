@@ -32,7 +32,7 @@ public class TestEntry extends TestCase {
                 "h9spfMMFkAhxW8yBvI7xjDPez7OhRANCAAT9m63ZE3t7QBEmzG8OnZBgYRa4xlg0\n" +
                 "1JJa6yw/MrKNSPJJqumU1nmkIBu3iCpph7yzB7LgKBphAnXbMByjkPP7\n" +
                 "-----END PRIVATE KEY-----";
-        String identifier = "admin";
+        String identifier = "japloya";
         config = new ConfigStorage();
         config.setIdentifier(identifier);
         config.setSdkappid(appid);

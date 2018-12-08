@@ -1,3 +1,4 @@
+/*
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.zs.tim.ConfigStorage;
@@ -22,9 +23,11 @@ import java.util.Map;
 public class TestEntry extends TestCase {
 
     ConfigStorage config;
-    /**
+    */
+/**
      * 配置config信息
-     */
+     *//*
+
     {
         long appid = 1400160879;
         String priStr = "-----BEGIN PRIVATE KEY-----\n" +
@@ -39,10 +42,12 @@ public class TestEntry extends TestCase {
         config.setPriStr(priStr);
     }
 
-    /**
+    */
+/**
      * 测试工具类
      * @throws RequestException
-     */
+     *//*
+
     public void testRequestUtils() throws RequestException {
         String uri = "http://v.juhe.cn/weather/index";
         Map<String, String> params = new HashMap<>();
@@ -53,10 +58,12 @@ public class TestEntry extends TestCase {
 
     }
 
-    /**
+    */
+/**
      * 测试TIMDefaultAccountService.importAccount()方法
      * @throws JTIMException
-     */
+     *//*
+
     public void testImportAccount() throws JTIMException {
         TIMAccount account = new TIMAccount();
         account.setFaceUrl("url");
@@ -69,10 +76,12 @@ public class TestEntry extends TestCase {
         System.out.println(JSONObject.toJSONString(response));
     }
 
-    /**
+    */
+/**
      * 测试TIMDefaultAccountService.kick()方法
      * @throws JTIMException
-     */
+     *//*
+
     public void testKick() throws JTIMException{
         //TIMAccountService timAccountService =TIMDefaultAccountService.getTIMAccountService(config);
         //TIMResponse timResponse = timAccountService.kick("uihi");
@@ -83,9 +92,11 @@ public class TestEntry extends TestCase {
         System.out.println(JSONObject.toJSONString(timResponse));
 
     }
-    /**
+    */
+/**
      * 测试TIMDefaultMessageService.sendMsg()方法
-     */
+     *//*
+
     public void testSendMsg(){
         TIMService timService=new TIMDefaultService(config);
         TIMSendMsg TIMSendMsg =new TIMSendMsg();
@@ -111,10 +122,12 @@ public class TestEntry extends TestCase {
         }
         System.out.println(JSONObject.toJSONString(timResponse));
     }
-    /**
+    */
+/**
      * 测试测试TIMDefaultMessageService.TIMBatchSendMsg
      * @throws JTIMException
-     */
+     *//*
+
     public void testBatchSendMsg() throws JTIMException{
         TIMService timService=new TIMDefaultService(config);
         TIMBatchSendMsg TIMBatchSendMsg =new TIMBatchSendMsg();
@@ -139,9 +152,11 @@ public class TestEntry extends TestCase {
 
     }
 
-    /**
+    */
+/**
      * 测试TIMDefaultMessageService.importMsg()方法
-     */
+     *//*
+
     public void testImportMsg() throws JTIMException{
         TIMImportMsg timImportMsg=new TIMImportMsg();
         List<MsgBody>msgBodies= new ArrayList<>();
@@ -166,9 +181,11 @@ public class TestEntry extends TestCase {
 
     }
 
-    /**
+    */
+/**
      * 测试TIMDefalutMessageService.getHistory()方法
-     */
+     *//*
+
     public void testGetHistory() throws JTIMException{
         TIMService timService=new TIMDefaultService(config);
         TIMGetHistory timGetHistory=new TIMGetHistory();
@@ -184,3 +201,4 @@ public class TestEntry extends TestCase {
 
 
 }
+*/

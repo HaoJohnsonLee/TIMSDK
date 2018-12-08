@@ -14,6 +14,10 @@ import java.util.List;
  */
 public interface TIMAccountService {
 
+
+
+    String getUserSig(String identifier);
+
     /**
      * 独立模式 导入账户
      * @param account tencent im 账户

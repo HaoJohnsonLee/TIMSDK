@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23763a45-8258-4913-bb69-9be885bc584f" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zs/tim/entity/request/BatchSendMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zs/tim/entity/request/BatchSendMsg.java" afterDir="false" />
@@ -23,6 +24,25 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/zs/tim/utils/RequestUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zs/tim/utils/RequestUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestEntry.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/timSDK.iml" beforeDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/johnsonlee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/timSDK_jar/timSDK.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/timSDK_jar/timSDK.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zs/tim/ConfigStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zs/tim/ConfigStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zs/tim/entity/TIMAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zs/tim/entity/TIMMultiImportResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zs/tim/entity/TIMResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zs/tim/service/TIMAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zs/tim/service/TIMAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zs/tim/service/impl/TIMDefaultAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zs/tim/service/impl/TIMDefaultAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zs/tim/service/impl/TIMDefaultMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zs/tim/service/impl/TIMDefaultMessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zs/tim/ConfigStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zs/tim/ConfigStorage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zs/tim/utils/RequestUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zs/tim/utils/RequestUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timSDK.iml" beforeDir="false" afterPath="$PROJECT_DIR$/timSDK.iml" afterDir="false" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -115,57 +135,147 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.spring.boot.mvc.usages" />
     </session>
+    <session id="1090932992">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="114" />
+          <entry key="xml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="114" />
+          <entry key="XML" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="12" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="12" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="TIMMessageService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/service/TIMMessageService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="494">
               <caret line="34" column="12" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="12" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/ConfigStorage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="112" column="27" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2636#2637#0" expanded="true" />
+                <element signature="e#2662#2663#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="TIMGetHistory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/entity/request/TIMGetHistory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="551">
               <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/service/TIMService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/service/impl/TIMDefaultService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+              <folding>
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+              </folding>
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="TIMService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/service/TIMService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/service/impl/TIMDefaultAccountService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
               <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="BatchSendMsg.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/entity/request/BatchSendMsg.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/service/impl/TIMDefaultMessageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="TestEntry.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestEntry.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -173,11 +283,22 @@
               <caret line="179" column="65" lean-forward="true" selection-start-line="179" selection-start-column="65" selection-end-line="179" selection-end-column="65" />
               <folding>
                 <element signature="e#0#6711#0" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/utils/RequestUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-672">
+              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#doGet#1;class#RequestUtil#0" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="TIMSendMsg.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/entity/request/TIMSendMsg.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -204,6 +325,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
               <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/Constant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
             </state>
           </provider>
         </entry>
@@ -238,7 +366,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/exception/TencentException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/entity/TIMMuli.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/entity/TIMMuliImportResponse.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/ConfigStorage.java" />
+=======
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
         <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/entity/TIMResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/entity/TIMMultiImportResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/entity/TIMAccount.java" />
@@ -246,7 +377,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/entity/response/TIMResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/entity/response/TIMKitResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/entity/response/TIMKickResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/service/impl/TIMDefaultAccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/service/TIMService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/service/impl/TIMDefaultMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/service/impl/TIMDefaultService.java" />
@@ -277,6 +407,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/service/impl/TIMDefaultMessageService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/ConfigStorage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zs/tim/service/impl/TIMDefaultAccountService.java" />
       </list>
     </option>
   </component>
@@ -293,6 +425,7 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="timSDK" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+<<<<<<< HEAD
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="timSDK" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -310,10 +443,13 @@
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
           <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
+=======
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
       </expand>
       <select />
     </treeState>
   </component>
+<<<<<<< HEAD
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
@@ -321,6 +457,12 @@
     <option name="x" value="660" />
     <option name="width" value="1264" />
     <option name="height" value="1099" />
+=======
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="661" />
+    <option name="width" value="1263" />
+    <option name="height" value="1098" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -333,7 +475,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="AndroidView" />
+=======
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -367,6 +512,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
             </path>
             <path>
               <item name="timSDK" type="b2602c69:ProjectViewProjectNode" />
@@ -386,6 +533,55 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zs" type="462c0819:PsiDirectoryNode" />
               <item name="tim" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timSDK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timSDK" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zs" type="462c0819:PsiDirectoryNode" />
+              <item name="tim" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timSDK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timSDK" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zs" type="462c0819:PsiDirectoryNode" />
+              <item name="tim" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
+            </path>
+            <path>
+              <item name="timSDK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timSDK" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zs" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="tim" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
+            </path>
+            <path>
+              <item name="timSDK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timSDK" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zs" type="462c0819:PsiDirectoryNode" />
+              <item name="tim" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
             </path>
             <path>
               <item name="timSDK" type="b2602c69:ProjectViewProjectNode" />
@@ -409,6 +605,9 @@
               <item name="tim" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
               <item name="request" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
             </path>
             <path>
               <item name="timSDK" type="b2602c69:ProjectViewProjectNode" />
@@ -431,16 +630,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="setting&#9;ACTION&#9;Database.Settings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542198051568" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543827524295" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -578,14 +778,17 @@
       <workItem from="1542029460669" duration="7641000" />
       <workItem from="1542075663362" duration="21914000" />
       <workItem from="1542191515888" duration="6362000" />
+<<<<<<< HEAD
       <workItem from="1544288037989" duration="1333000" />
+=======
+      <workItem from="1543756962134" duration="177000" />
+      <workItem from="1543757180851" duration="1849000" />
+      <workItem from="1543825190806" duration="869000" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestEntry_testSendMsg - 2018.11.13 at 21h 09m 57s.xml">
-      <configuration name="TestEntry.testSendMsg" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestEntry_testSendMsg - 2018.11.13 at 21h 10m 16s.xml">
       <configuration name="TestEntry.testSendMsg" configurationId="JUnit" />
     </history-entry>
@@ -613,9 +816,16 @@
     <history-entry file="TestEntry_testKick - 2018.11.14 at 19h 52m 52s.xml">
       <configuration name="TestEntry.testKick" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestEntry_testKick - 2018.12.02 at 21h 47m 45s.xml">
+      <configuration name="TestEntry.testKick" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="60179000" />
+=======
+    <option name="totallyTimeSpent" value="61741000" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -627,12 +837,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="PlantUML" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+=======
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2653791" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3285968" />
@@ -648,6 +866,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2153025" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -658,6 +877,31 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4430605" />
+=======
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.44216868" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30728242" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21445782" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32891566" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31083483" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32771084" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,6 +909,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TestEntry.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/net/URI.java" />
@@ -737,6 +993,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/MsgContent.java" />
     <entry file="jar://E:/jdk/src.zip!/java/lang/Number.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/entity/pojo/Msg/MsgContent.java" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/service/TIMAccountService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -756,6 +1013,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/entity/pojo/Msg/MsgCustom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -767,6 +1026,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -774,6 +1034,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+=======
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
         </state>
       </provider>
     </entry>
@@ -781,6 +1043,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -798,6 +1061,8 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
         </state>
       </provider>
     </entry>
@@ -812,9 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-415">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -836,6 +1098,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+<<<<<<< HEAD
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/entity/request/TIMBatchSendMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3148">
+          <caret line="201" lean-forward="true" selection-start-line="201" selection-end-line="201" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
         </state>
       </provider>
     </entry>
@@ -843,9 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="28" column="34" selection-start-line="26" selection-start-column="14" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,40 +1125,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/ConfigStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/entity/pojo/Msg/MsgBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/service/impl/TIMDefaultMessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/TestEntry.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/service/TIMMessageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+<<<<<<< HEAD
+        <state relative-caret-position="25">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+=======
+        <state relative-caret-position="510">
           <caret line="34" column="12" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -897,8 +1140,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/entity/pojo/Msg/MsgBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/entity/request/TIMGetHistory.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/entity/request/TIMSendMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/entity/request/TIMAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="475">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="26" selection-end-column="31" />
+=======
+        <state relative-caret-position="285">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/service/TIMAccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+=======
+        <state relative-caret-position="225">
+          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="646">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+=======
+        <state relative-caret-position="401">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="33" selection-end-column="43" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#testImportAccount#0;class#TestEntry#0" />
+            <element signature="docComment;method#testSendMsg#0;class#TestEntry#0" />
+            <element signature="method#testSendMsg#0;class#TestEntry#0" />
+            <element signature="docComment;method#testBatchSendMsg#0;class#TestEntry#0" />
+            <element signature="method#testBatchSendMsg#0;class#TestEntry#0" />
+            <element signature="method#testImportMsg#0;class#TestEntry#0" />
+            <element signature="method#testGetHistory#0;class#TestEntry#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/service/TIMMessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="12" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/service/TIMService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/service/impl/TIMDefaultMessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/utils/RequestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#doGet#1;class#RequestUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="551">
           <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
         </state>
@@ -924,10 +1275,25 @@
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+        <state relative-caret-position="435">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/service/impl/TIMDefaultService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/entity/request/TIMBatchSendMsg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -948,10 +1314,21 @@
           <caret line="179" column="65" lean-forward="true" selection-start-line="179" selection-start-column="65" selection-end-line="179" selection-end-column="65" />
           <folding>
             <element signature="e#0#6711#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/ConfigStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="112" column="27" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2636#2637#0" expanded="true" />
+            <element signature="e#2662#2663#0" expanded="true" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/service/TIMService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -963,6 +1340,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/tim/service/impl/TIMDefaultAccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+>>>>>>> e178d02743679d2685ed8a3b0c6d2c2fe3ddf90b
         </state>
       </provider>
     </entry>
@@ -1025,7 +1408,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

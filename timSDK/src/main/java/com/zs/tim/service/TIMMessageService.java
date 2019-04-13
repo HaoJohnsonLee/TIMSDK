@@ -47,4 +47,5 @@ public interface TIMMessageService {
      */
     TIMGetHistoryResponse getHistory(TIMGetHistory timGetHistory) throws JTIMException;
 
+    TIMSendMsgResponse sendTextMsg(String to, String content) throws JTIMException;
 }

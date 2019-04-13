@@ -17,7 +17,9 @@ public class MsgText implements MsgBody{
         this.msgContent = msgContent;
     }
 
-    public MsgText() {
+    public MsgText(String content) {
+        this.msgContent = new MsgContentBean();
+        this.msgContent.text = content;
     }
 
     public String getMsgType() {

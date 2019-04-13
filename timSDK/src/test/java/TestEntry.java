@@ -90,10 +90,7 @@ public class TestEntry extends TestCase {
         TIMService timService=new TIMDefaultService(config);
         TIMSendMsg TIMSendMsg =new TIMSendMsg();
         List<MsgBody> msgBodies=new ArrayList<>();
-        MsgBody msgBody=new MsgText();
-        MsgText.MsgContentBean msgContentBean=new MsgText.MsgContentBean();
-        msgContentBean.setText("this is a test");
-        ((MsgText) msgBody).setMsgContent(msgContentBean);
+        MsgBody msgBody=new MsgText("this is a test");
         msgBodies.add(msgBody);
 
         TIMSendMsg.setSyncOtherMachine(1);
@@ -124,11 +121,7 @@ public class TestEntry extends TestCase {
         list.add("haaha");
 
         List<MsgBody> msgBodies=new ArrayList<>();
-        MsgBody msgBody=new MsgText();
-        MsgText.MsgContentBean msgContentBean=new MsgText.MsgContentBean();
-        msgContentBean.setText("this is a test");
-        ((MsgText) msgBody).setMsgContent(msgContentBean);
-
+        MsgBody msgBody=new MsgText("this is a test");
         msgBodies.add(msgBody);
         TIMBatchSendMsg.setTo_Account(list);
         TIMBatchSendMsg.setMsgBody(msgBodies);

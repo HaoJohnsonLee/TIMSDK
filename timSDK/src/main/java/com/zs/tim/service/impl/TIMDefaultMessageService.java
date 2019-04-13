@@ -4,6 +4,8 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.zs.tim.ConfigStorage;
 import com.zs.tim.Constant;
+import com.zs.tim.entity.pojo.Msg.MsgBody;
+import com.zs.tim.entity.pojo.Msg.MsgText;
 import com.zs.tim.entity.request.TIMBatchSendMsg;
 import com.zs.tim.entity.request.TIMGetHistory;
 import com.zs.tim.entity.request.TIMImportMsg;
@@ -15,6 +17,10 @@ import com.zs.tim.entity.response.TIMSendMsgResponse;
 import com.zs.tim.exception.JTIMException;
 import com.zs.tim.service.TIMMessageService;
 import com.zs.tim.utils.RequestUtil;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 public class TIMDefaultMessageService implements TIMMessageService{
     private ConfigStorage config;
@@ -51,5 +57,16 @@ public class TIMDefaultMessageService implements TIMMessageService{
     @Override
     public TIMGetHistoryResponse getHistory(TIMGetHistory timGetHistory) throws JTIMException {
         return RequestUtil.doPost((JSONObject)JSON.toJSON(timGetHistory),Constant.URLs.GET_HISTORY,config,TIMGetHistoryResponse.class);
+    }
+
+    @Override
+    public TIMSendMsgResponse sendTextMsg(String to, String content) throws JTIMException {
+        TIMSendMsg msg = new TIMSendMsg();
+        List<MsgBody> msgs = new ArrayList<>(1);
+        msgs.add(new MsgText(content));
+        msg.setTo_Account(to);
+        msg.setMsgRandom(new Random().nextInt());
+        msg.setSyncOtherMachine(1);
+        return sendMsg(msg);
     }
 }

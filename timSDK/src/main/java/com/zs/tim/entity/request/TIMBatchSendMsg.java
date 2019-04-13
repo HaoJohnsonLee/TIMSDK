@@ -1,7 +1,6 @@
 package com.zs.tim.entity.request;
 
 import com.alibaba.fastjson.annotation.JSONField;
-import com.sun.xml.internal.stream.events.NamedEvent;
 import com.zs.tim.entity.pojo.Msg.MsgBody;
 
 import java.util.List;
